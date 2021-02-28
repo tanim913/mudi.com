@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/*      sass template      */
+/* global classes */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/*typestle classes*/
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+/* color templates */
+.color-primary {
+  color: #024d08;
+}
+
+.color-primary-bg {
+  background: #024d08;
+}
+
+.color-second {
+  color: #045001;
+}
+
+.color-second-bg {
+  background: #045001;
+}
+
+.color-yellow {
+  color: #fdff00;
+}
+
+.color-yellow-bg {
+  background: #fdff00;
+}
+
+.color-ash {
+  color: #c7c7c7c2;
+}
+
+.color-ash-bg {
+  background: #c7c7c7c2;
+}
+
+/* popular items template*/
+#popular-items .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#popular-items .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#popular-items .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#popular-items .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#popular-items .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#popular-items .owl-carousel .owl-nav button.owl-prev span,
+#popular-items .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #024d08;
+  padding: 0 1rem;
+}
+#popular-items .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#popular-items .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#popular-items .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/* sale items template*/
+#sale-items .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#sale-items .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#sale-items .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#sale-items .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#sale-items .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#sale-items .owl-carousel .owl-nav button.owl-prev span,
+#sale-items .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #024d08;
+  padding: 0 1rem;
+}
+#sale-items .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#sale-items .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#sale-items .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/*   Categorized Products Section Template */
+#catagorised-product .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* category items */
+.category-box {
+  background-color: #edf0d2;
+  font-family: "Raleway", cursive;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  margin: 3px;
+  transition: transform 0.5s ease;
+}
+
+.category-box:hover {
+  transform: scale(1.1);
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+/* category items */
+.category-box {
+    background-color: rgb(237, 240, 210);
+    font-family: "Raleway", cursive;   font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 3px;
+    
+    transition: transform .5s ease;
+  } 
+
+
+.category-box:hover{
+    transform: scale(1.1);
+    font-weight: 900;
+}

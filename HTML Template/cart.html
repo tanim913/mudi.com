@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cart</title>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!--owl carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    
+    <!--Custom CSS file-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!--start #header -->
+    <header id="header">
+
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-rale font-size-12 text-black-50 m-0">556, Dhanmondi Dhaka, 1209</p>
+            <div class="font-rale font-size-14">
+                <a href="#" class="px-3 border-right border-left text-dark">Login</a>
+                <a href="#" class="px-3 border-right text-dark">Register</a>
+            </div>
+        </div>
+
+        <!--Primary Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+          <a class="navbar-brand mx-5" href="#"><strong>Mudi <i class="fas fa-apple-alt"></i></strong></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  m-auto font-rubik">
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Category</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">All Products</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+
+            </ul>
+            <form action="#" class="font-size-14 font-rale">
+              <a href="#" class="py-2 rounded-pill color-primary-bg">
+                <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+              </a>
+          </form>
+          </div>
+        </nav>
+        <!--!Primary Navigation-->
+
+    </header>
+    <!--!start #header -->
+
+
+    <!--start mains-site-->
+    <main id=main-site>
+
+            <!-- Shopping cart section  -->
+            <section id="cart" class="py-3">
+                <div class="container-fluid w-75">
+                    <h5 class="font-baloo font-size-20">Shopping Cart</h5>
+
+                    <!--  shopping cart items   -->
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <!-- cart item -->
+                                    <div class="row border-top py-3 mt-3">
+                                        <div class="col-sm-2">
+                                          <a href="#"><img src="../assets/products/beauty and health/food supliments/kitkat.jpg" alt="product48" class="img-fluid"></a>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <h5 class="font-baloo font-size-20">KitKat</h5>
+                                            <small>4 fingers</small>
+                                    
+                                            <!-- product qty -->
+                                            <div class="qty d-flex pt-2">
+                                              <div class="d-flex font-rale w-25">
+                                                  <button class="qty-up border bg-light" data-id="pro1"><i class="fa fa-plus-square"></i></button>
+                                                  <input type="text" data-id="pro1" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                                  <button data-id="pro1" class="qty-down border bg-light"><i class="fa fa-minus-square"></i></button>
+                                                </div>
+                                                <button type="submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
+                                                <button type="submit" class="btn font-baloo text-danger">Save for Later</button>
+                                                </div>
+                                            <!-- !product qty -->
+
+                                        </div>
+
+                                        <div class="col-sm-2 text-right">
+                                            <div class="font-size-20 text-danger font-baloo">
+                                                ৳ <span class="product_price">152</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- !cart item -->
+                                <!-- cart item -->
+                                <div class="row border-top py-3 mt-3">
+                                    <div class="col-sm-2">
+                                      <a href="#"><img src="../assets/products/beauty and health/food supliments/dairymilk.jpg" alt="product46" class="img-fluid"></a>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h5 class="font-baloo font-size-20">Dairy Milk</h5>
+                                        <small>200g</small>
+                                        
+                                        <!-- product qty -->
+                                            <div class="qty d-flex pt-2">
+                                                <div class="d-flex font-rale w-25">
+                                                    <button class="qty-up border bg-light" data-id="pro2"><i class="fa fa-plus-square"></i></button>
+                                                    <input type="text" data-id="pro2" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                                    <button data-id="pro2" class="qty-down border bg-light"><i class="fa fa-minus-square"></i></button>
+                                                  </div>
+                                                  <button type="submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
+                                                  <button type="submit" class="btn font-baloo text-danger">Save for Later</button>
+                                                  </div>
+                                        <!-- !product qty -->
+
+                                    </div>
+
+                                    <div class="col-sm-2 text-right">
+                                        <div class="font-size-20 text-danger font-baloo">
+                                            ৳ <span class="product_price">120</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- !cart item -->
+                            </div>
+                            <!-- subtotal section-->
+                            <div class="col-sm-3">
+                                <div class="sub-total border text-center mt-2">
+                                    <h6 class="font-size-12 font-rale text-success py-3"><i class="fas fa-check"></i> Your order is eligible for FREE Delivery.</h6>
+                                    <div class="border-top py-4">
+                                        <h5 class="font-baloo font-size-20">Subtotal (2 item):&nbsp; <span class="text-danger">৳<span class="text-danger" id="deal-price">152.0</span> </span> </h5>
+                                        <button type="submit" class="btn btn-warning mt-3">Proceed to Buy</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- !subtotal section-->
+                        </div>
+                    <!--  !shopping cart items   -->
+                </div>
+            </section>
+        <!-- !Shopping cart section  -->
+        
+
+
+        <!-- Sale items -->
+        <section id="sale-items">
+            <div class="container py-5">
+              <h4 class="font-rubik font-size-20">Sale Items</h4>
+              <hr>
+              <!-- owl carousel -->
+                <div class="owl-carousel owl-theme">
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/Food/Fruits and Vegetables/banana.jpg" alt="product8" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Banana</h6>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/Food/Meat and Fishes/broilerChicken.jpg" alt="product17" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Broiler Chicken</h6>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/Food/Dairy/liquidMilk.png" alt="product2" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Liquid Milk</h6>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/Food/Snacks/chips.jpg" alt="product26" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Chips</h6>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/Food/cooking/rice.jpg" alt="product33" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Rice</h6>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/beauty and health/health care/facemask.jpg" alt="product57" class="img-fluid"></a>
+                        <div class="text-center">
+                          <h6>Face Mask</h6>
+                          <div class="price py-2">
+                            <span>$122</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/beauty and health/health care/toiletPaper.jpg" alt="product61" class="img-fluid"></a>
+                        <div class="text-center">
+                          <h6>Toilet Paper</h6>
+                          <div class="price py-2">
+                            <span>$122</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- !owl carousel -->
+            </div>
+            </section>
+            <!--!Sale items -->
+    
+        
+    </main>
+    <!--!start mains-site-->
+
+    <!--start #footer-->
+    <footer id = "footer" class = "color-primary-bg py-5 text-white">
+      <div class="container"> 
+        <div class="row">
+
+          <!-- Brand name-->
+          <div class="col-md-3 col-12 text-center">
+            <h4 class="font-rubik font-size-20 pb-1">Mudi <i class="fas fa-apple-alt"></i></h4>
+            <p class="font-size-14 font-rale text-white-50">Always there for all your needs</p>
+          </div>
+          <!-- !Brand name-->
+
+         <!-- Social buttons -->
+          <div class="col-md-5 col-12 text-center">
+            <h4 class="font-rubik font-size-20 pb-1">Social Networks</h4>
+          <!-- Facebook -->
+          <a href="#" class="fb-ic text-white icon-hover">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-4 mr-2 "> </i>
+          </a>
+          <!-- Twitter -->
+          <a href="#" class="tw-ic text-white icon-hover">
+            <i class="fab fa-twitter fa-lg white-text mr-md-4 mr-2 "> </i>
+          </a>
+          <!--Instagram-->
+          <a href="#" class="ins-ic text-white icon-hover">
+            <i class="fab fa-instagram fa-lg white-text mr-md-4 mr-2 "> </i>
+          </a>
+          <!--Pinterest-->
+          <a href="#" class="pin-ic text-white icon-hover">
+            <i class="fab fa-pinterest fa-lg white-text"> </i>
+          </a>
+        </div>
+        <!-- !Social buttons -->
+
+
+       <!-- Links -->
+       <div class="col-lg-3 col-12 text-center pb-1">
+        <h4 class="font-rubik font-size-20">Information</h4>
+        <div class="d-flex flex-column flex-wrap">
+          <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+          <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Contact Us</a>
+          <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+        </div>
+      </div>
+       <!-- !Links -->
+        </div>
+      </div>
+    </footer>  
+    <!-- Copyright -->
+    <div class="copyright text-center color-primary-bg text-white py-2">© 2020 Copyright:
+      <a href="#"> Mudi.com</a>
+    </div>
+    <!-- Copyright -->
+    <!--start #footer-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
